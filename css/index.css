@@ -63,7 +63,7 @@ a {
 
 @media only screen and (min-width: 320px) {
     html {
-        font-size: 2.2vw;
+        font-size: 2.7vw;
     }
     .padding-left-bottom {
         padding-bottom: 3vh;
@@ -78,13 +78,17 @@ a {
         font-size: 1.8vw;
     }
     .padding-left-bottom {
-        padding-bottom: 3vh;
+        padding-right: 3vh;
     }
 }
 
 @media only screen and (min-width: 768px) {
     html {
-        font-size: 1.5vw;
+        font-size: 1.7vw;
+    }
+
+    .padding-left-bottom {
+        padding-right: 3vh;
     }
 }
 
