@@ -1,0 +1,248 @@
+{
+    "data": {
+        "rounds": [
+            {
+                "identifier": "dc78570861a8bd59b5fa5a17d6ba5123",
+                "name": "Round 1",
+                "start_date": "2015-08-22T18:00:00+0200",
+                "end_date": "2015-08-23T20:45:00+0200",
+                "round_slug": "round-1",
+                "matches": [
+                    {
+                        "identifier": "7299daf1fac5251633c2e35577b03b18",
+                        "match_slug": "verona-roma",
+                        "date_match": "2015-08-22T18:00:00+0200",
+                        "home_team": "Verona",
+                        "away_team": "Roma",
+                        "match_result": "1-1",
+                        "match_result_first_time": "",
+                        "group_name": "",
+                        "group_name_slug": "",
+                        "played": 1,
+                        "referee": {
+                            "identifier": "3271fb39a5b4dad8c504fa988c10d9de",
+                            "name": "Marco",
+                            "surname": "Guida",
+                            "assistant": false
+                        },
+                        "stadium": {
+                            "identifier": "8af19324b40413c152821d3f828fb7df",
+                            "name": "Marcantonio Bentegodi",
+                            "city": "Verona"
+                        }
+                    },
+                    {
+                        "identifier": "7004bcca04b6cf0f2f65460f3659c445",
+                        "match_slug": "lazio-bologna",
+                        "date_match": "2015-08-22T20:45:00+0200",
+                        "home_team": "Lazio",
+                        "away_team": "Bologna",
+                        "match_result": "2-1",
+                        "match_result_first_time": "",
+                        "group_name": "",
+                        "group_name_slug": "",
+                        "played": 1,
+                        "referee": {
+                            "identifier": "f6e1c0cc1159367e4b9b22c9556f398d",
+                            "name": "Gianluca",
+                            "surname": "Rocchi",
+                            "assistant": false
+                        },
+                        "stadium": {
+                            "identifier": "7aeaeafdd27fa0dd02e41b1257a7eada",
+                            "name": "Olimpico",
+                            "city": "Roma"
+                        }
+                    },
+                    {
+                        "identifier": "12a5ee169cb2caacff023ca72e95e620",
+                        "match_slug": "juventus-udinese",
+                        "date_match": "2015-08-23T18:00:00+0200",
+                        "home_team": "Juventus",
+                        "away_team": "Udinese",
+                        "match_result": "0-1",
+                        "match_result_first_time": "",
+                        "group_name": "",
+                        "group_name_slug": "",
+                        "played": 1,
+                        "referee": {
+                            "identifier": "5dcce2ab5abe4f70d7ea7fed4c0cc574",
+                            "name": "Paolo Silvio",
+                            "surname": "Mazzoleni",
+                            "assistant": false
+                        },
+                        "stadium": {
+                            "identifier": "9283528584e4dc8882b9c0ce87198a42",
+                            "name": "Juventus Stadium",
+                            "city": "Torino"
+                        }
+                    },
+                    {
+                        "identifier": "6e6dc9743cfec59a5b7f2ce1240bb9ad",
+                        "match_slug": "sampdoria-carpi",
+                        "date_match": "2015-08-23T20:45:00+0200",
+                        "home_team": "Sampdoria",
+                        "away_team": "Carpi",
+                        "match_result": "5-2",
+                        "match_result_first_time": "",
+                        "group_name": "",
+                        "group_name_slug": "",
+                        "played": 1,
+                        "referee": {
+                            "identifier": "0c1b612c3f59a8ef274d165b294f172b",
+                            "name": "Michael",
+                            "surname": "Fabbri",
+                            "assistant": false
+                        },
+                        "stadium": {
+                            "identifier": "ed68f4e02d8c2eaa21df4ed4706a9579",
+                            "name": "Luigi Ferraris",
+                            "city": "Genova"
+                        }
+                    },
+                    {
+                        "identifier": "9e87448b741791fdc003f4f7a862069f",
+                        "match_slug": "fiorentina-milan",
+                        "date_match": "2015-08-23T20:45:00+0200",
+                        "home_team": "Fiorentina",
+                        "away_team": "Milan",
+                        "match_result": "2-0",
+                        "match_result_first_time": "",
+                        "group_name": "",
+                        "group_name_slug": "",
+                        "played": 1,
+                        "referee": {
+                            "identifier": "2ccd97500268dc136ef0eae63c9f060e",
+                            "name": "Paolo",
+                            "surname": "Valeri",
+                            "assistant": false
+                        },
+                        "stadium": {
+                            "identifier": "d4ab449bd133ab63f6ec92cd40065f13",
+                            "name": "Artemio Franchi",
+                            "city": "Firenze"
+                        }
+                    },
+                    {
+                        "identifier": "0f23ab06f2c12841727ef8ecfdcaf9c1",
+                        "match_slug": "empoli-chievo",
+                        "date_match": "2015-08-23T20:45:00+0200",
+                        "home_team": "Empoli",
+                        "away_team": "Chievo",
+                        "match_result": "1-3",
+                        "match_result_first_time": "",
+                        "group_name": "",
+                        "group_name_slug": "",
+                        "played": 1,
+                        "referee": {
+                            "identifier": "9d263f246f8abd5ccce55e063a741a41",
+                            "name": "Maurizio",
+                            "surname": "Mariani",
+                            "assistant": false
+                        },
+                        "stadium": {
+                            "identifier": "6cd23df6adf5d785ff5ce3ea1a9d8ea1",
+                            "name": "Carlo Castellani",
+                            "city": "Empoli"
+                        }
+                    },
+                    {
+                        "identifier": "dbdde6d7d2cb955b076658e377376a90",
+                        "match_slug": "palermo-genoa",
+                        "date_match": "2015-08-23T20:45:00+0200",
+                        "home_team": "Palermo",
+                        "away_team": "Genoa",
+                        "match_result": "1-0",
+                        "match_result_first_time": "",
+                        "group_name": "",
+                        "group_name_slug": "",
+                        "played": 1,
+                        "referee": {
+                            "identifier": "5866ce6906c610ec95c553814fbb0f5e",
+                            "name": "Massimiliano",
+                            "surname": "Irrati",
+                            "assistant": false
+                        },
+                        "stadium": {
+                            "identifier": "f795e7cced34a1e17ca8544363f15412",
+                            "name": "Renzo Barbera",
+                            "city": "Palermo"
+                        }
+                    },
+                    {
+                        "identifier": "1524390c05d1a7d5c76f61d2665ebf7b",
+                        "match_slug": "sassuolo-napoli",
+                        "date_match": "2015-08-23T20:45:00+0200",
+                        "home_team": "Sassuolo",
+                        "away_team": "Napoli",
+                        "match_result": "2-1",
+                        "match_result_first_time": "",
+                        "group_name": "",
+                        "group_name_slug": "",
+                        "played": 1,
+                        "referee": {
+                            "identifier": "b07ae5dfe356b125e316142c9675fcb0",
+                            "name": "Daniele",
+                            "surname": "Doveri",
+                            "assistant": false
+                        },
+                        "stadium": {
+                            "identifier": "f5d3df20d933fc511478ad54494aa180",
+                            "name": "Mapei Stadium",
+                            "city": "Reggio Emilia"
+                        }
+                    },
+                    {
+                        "identifier": "b369dfcf4e7a073b9732991b814c85cf",
+                        "match_slug": "frosinone-torino",
+                        "date_match": "2015-08-23T20:45:00+0200",
+                        "home_team": "Frosinone",
+                        "away_team": "Torino",
+                        "match_result": "1-2",
+                        "match_result_first_time": "",
+                        "group_name": "",
+                        "group_name_slug": "",
+                        "played": 1,
+                        "referee": {
+                            "identifier": "70773d433f4b550f9cb2927c233356d9",
+                            "name": "Luca",
+                            "surname": "Banti",
+                            "assistant": false
+                        },
+                        "stadium": {
+                            "identifier": "bfca7b148e462c1e961a4e8959c0390c",
+                            "name": "Stadio Matusa",
+                            "city": "Frosinone"
+                        }
+                    },
+                    {
+                        "identifier": "2b85bf9811b1197ce356f49026f1f29b",
+                        "match_slug": "inter-atalanta",
+                        "date_match": "2015-08-23T20:45:00+0200",
+                        "home_team": "Inter",
+                        "away_team": "Atalanta",
+                        "match_result": "1-0",
+                        "match_result_first_time": "",
+                        "group_name": "",
+                        "group_name_slug": "",
+                        "played": 1,
+                        "referee": {
+                            "identifier": "a148c817b396b7f27e271c9d073d3ff2",
+                            "name": "Gianpaolo",
+                            "surname": "Calvarese",
+                            "assistant": false
+                        },
+                        "stadium": {
+                            "identifier": "7fc6fa0e0d3c1357d3b3547c2f8f533a",
+                            "name": "Giuseppe Meazza",
+                            "city": "Milano"
+                        }
+                    }
+                ]
+            }
+        ],
+        "statusCode": "200",
+        "errorCode": "0",
+        "statusReason": "OK"
+    }
+}

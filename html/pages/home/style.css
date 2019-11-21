@@ -3,19 +3,17 @@
 .hot-game {
     height: 5vh;
     margin-top: 5vh;
-    border-style: groove;
 }
 
 .hot-game>.title {
     background-color: lightgray;
-    height: 4vh;
+    height: 5vh;
     text-align: center;
-    line-height: 4vh;
     float: left;
 }
 
-.hot-game>.detail {
-    padding-top: 1vh;
+.hot-game > * {
+    line-height: 5vh;
 }
 
 .container>.content {
@@ -28,19 +26,20 @@
 }
 
 .last-games {
-    height: 50vh;
+    height: 70vh;
     overflow: scroll;
 }
 
 .live-scores {
     /* margin-left: 5vh; */
-    height: 60vh;
+    height: 70vh;
     overflow: scroll;
 }
 
 .trending {
     /* margin-left: 5vh; */
-    height: 65vh;
+    height: 70vh;
+    overflow: scroll;
 }
 
 .time {
@@ -50,7 +49,6 @@
 }
 
 .logo {
-    line-height: 3vh;
     text-align: center;
     /* font-size: 1vw; */
 }
@@ -67,9 +65,28 @@
     /* font-size: 1vw; */
 }
 
+.league-name {
+    padding-left: 10px;
+    padding-top: 2vh;
+    height: 10vh;
+}
+
+.league-logo {
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+}
+
+.league-title {
+    height: 5vh;
+    text-align: left;
+    line-height: 4.5vh;
+}
+
 .match {
     padding-top: 2vh;
     border-bottom: 1px solid;
+    border-color: lightgray;
     height: 7vh;
 }
 
@@ -78,12 +95,192 @@
     /* font-size: 1vw; */
 }
 
+#news {
+    margin-top: 20px;
+}
+
+.news {
+    margin-bottom: 50px;
+}
+
+.news-image {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.news-image > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.news > * > .title {
+    font-weight: bold;
+    color: black;
+    font-size: 2vw;
+}
+
+.news > * > .content {
+    color: darkgray;
+    font-size: 1.4vw;
+}
+
+.country-header {
+    height: 4vh;
+    line-height: 3vh;
+    background-color: lightgray;
+    padding-inline-start: 10px;
+    font-weight: bold;
+}
+
+.match-detail {
+    margin-top: 200px;
+    height: 100vh;
+}
+
+.match-detail > .back-button {
+    height: 5vh;
+    border-radius: 2vh;
+    margin-top: 20px;
+    text-align: center;
+vertical-align: middle;
+line-height: 5vh;
+font-weight: bold;
+}
+
+.match-detail > .detail {
+    height: 90%;
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.detail > .team-name-a, .detail > .team-name-b {
+    height: 25%;
+    widows: 100%;
+    padding: 5px;
+    text-align: center;
+    /* margin: 5px; */
+}
+
+.team-logo {
+    object-fit: cover;
+    height: 60%;
+    width: auto;
+    vertical-align: auto;
+}
+
+.team-name {
+    height: 30%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.team-logo > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.detail > .score {
+    height: 25%;
+}
+
+.detail > .score > .score-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.detail > .tabs {
+    height: 5%;
+    margin-top: 20px;
+}
+
+.detail > .features {
+    height: 65%;
+    margin-top: 20px;
+}
+
+.detail > .features > ul {
+    height: 100%;
+    overflow: scroll;
+}
+
+.detail > .features > ul > li {
+    height: 50px;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features > ul > li > .fromA, .features > ul > li > .fromB {
+    text-align: center;
+}
+
+
+.events-tab, .lineup-tab {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+/* .features > ul > li > .fromB {
+    text-align: center;
+} */
+
 @media only screen and (min-width: 320px) {
     .normal {
         display: none;
     }
     .small {
         display: block;
+    }
+    #match-detail {
+        display: none;
+    }
+    #leagues-bar {
+        height: auto;
+    }
+    #score-bar {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .normal {
+        display: none;
+    }
+    .small {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .normal {
+        display: none;
+    }
+    .small {
+        display: block;
+    }
+    #match-detail {
+        display: block;
+    }
+    #leagues-bar, #score-bar {
+        height: 70vh;
     }
 }
 

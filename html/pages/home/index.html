@@ -3,42 +3,46 @@
 <head>
     <link rel="stylesheet" type="text/css" href="../../../css/responsive.css">
     <link rel="stylesheet" type="text/css" href="../../../css/index.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/list_match.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/loading-row.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript" src="../../../data/league.js"></script>
+    <script type="text/javascript" src="../../../data/serie-a_14-15_round1.js"></script>
+    <script type="text/javascript" src="../../../data/sources-news.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../../../js/api.js"></script>
+    <script src="../../../js/index.js"></script>
+    <script src="htmlComponent.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="navigation-bar border">
+        <div class="navigation-bar border" id="menu">
             <div class="col-2 col-s-2 website-name">
-                <a class="menu col-s-2 col-xs-2" href="#">
+                <a class="menu" href="#" id="menu-expand">
                     <div>+</div>
                 </a>
-                <a class="col-s-10 col-xs-10" href="index.html">
+                <a class="col-s-12 col-xs-12" href="index.html">
                     <div>Soccer Update</div>
                 </a>
             </div>
             <a href="../home/index.html">
-                <div class="col-2 col-s-2 navigation-bar-features">home</div>
+                <div class="col-5 col-s-4 col-xs-12  navigation-bar-features">scores</div>
             </a>
-            <a href="../team/index.html">
-                <div class="col-2 col-s-2 navigation-bar-features">scores</div>
+            <a href="../standing/index.html">
+                <div class="col-5 col-s-3 col-xs-12 navigation-bar-features">standing</div>
             </a>
-            <a href="../team-info/index.html">
-                <div class="col-2 col-s-2 navigation-bar-features">teams</div>
-            </a>
-            <a href="../player-info/index.html">
-                <div class="col-2 col-s-2 navigation-bar-features">players</div>
-            </a>
-            <a href="#">
-                <div class="col-2 col-s-2 navigation-bar-features">trending news</div>
+            <a href="../trending-news/index.html">
+                <div class="col-s-2 col-xs-12 navigation-bar-features" id="trending-news-bar">trending news</div>
             </a>
         </div>
 
         <div class="content">
             <div class="hot-game border">
                 <div class="col-2 col-s-2 title">Hot game</div>
-                <div class="col-10 col-s-10 detail">
+                <div class="col-10 col-s-10 detail border">
                     <span class="col-2 col-s-2 col-xs-2 text-center">20:00</span>
                     <span class="col-3 col-s-3 col-xs-3 text-center">Manchester United</span>
                     <span class="col-3 col-s-3 col-xs-3 text-center">0 - 0</span>
@@ -46,185 +50,70 @@
                 </div>
             </div>
             <div class="col-12 tabs">
-                <div class="col-4 col-s-6 padding-left-bottom">
-                    <div class="last-games border">
-                        <h4>Last games result</h4>
-                        <ul class="scrollable">
-                            <li class="match normal">
-                                <span class="col-2 logo">(logo)</span>
-                                <span class="col-3 teamA">Manchester United</span>
-                                <span class="col-2 score">12:00</span>
-                                <span class="col-5 teamB">Chelsea</span>
-                            </li>
-                            <li class="match normal">
-                                <span class="col-2 logo">(logo)</span>
-                                <span class="col-3 teamA">Manchester United</span>
-                                <span class="col-2 score">12:00</span>
-                                <span class="col-5 teamB">Chelsea</span>
-                            </li>
-                            <li class="match normal">
-                                <span class="col-2 logo">(logo)</span>
-                                <span class="col-3 teamA">Manchester United</span>
-                                <span class="col-2 score">12:00</span>
-                                <span class="col-5 teamB">Chelsea</span>
-                            </li>
-                            <li class="match normal">
-                                <span class="col-2 logo">(logo)</span>
-                                <span class="col-3 teamA">Manchester United</span>
-                                <span class="col-2 score">12:00</span>
-                                <span class="col-5 teamB">Chelsea</span>
-                            </li>
-                            <li class="match small">
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="logo">(logo)</span>
-                                </div>
-
-                                <div class="col-s-8 col-xs-8">
-                                    <span class="col-s-12 col-xs-12">Manchester United</span>
-                                    <span>Chelsea</span>
-                                </div>
-
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="time">12:00</span>
-                                </div>
-                            </li>
-                            <li class="match small">
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="logo">(logo)</span>
-                                </div>
-
-                                <div class="col-s-8 col-xs-8">
-                                    <span class="col-s-12 col-xs-12">Manchester United</span>
-                                    <span>Chelsea</span>
-                                </div>
-
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="time">12:00</span>
-                                </div>
-                            </li>
-                            <li class="match small">
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="logo">(logo)</span>
-                                </div>
-
-                                <div class="col-s-8 col-xs-8">
-                                    <span class="col-s-12 col-xs-12">Manchester United</span>
-                                    <span>Chelsea</span>
-                                </div>
-
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="time">12:00</span>
-                                </div>
-                            </li>
-                            <li class="match small">
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="logo">(logo)</span>
-                                </div>
-
-                                <div class="col-s-8 col-xs-8">
-                                    <span class="col-s-12 col-xs-12">Manchester United</span>
-                                    <span>Chelsea</span>
-                                </div>
-
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="time">12:00</span>
-                                </div>
-                            </li>
-                        </ul>
+                <div class="col-4 col-s-5 padding-left-bottom">
+                    <div class="last-games border" id="leagues-bar">
+                        <h4>Leagues</h4>
+                        <div class="scrollable" id="leagues-list">
+                        </div>
                     </div>
 
                 </div>
-                <div class="col-4 col-s-6 padding-left-bottom">
-                    <div class="live-scores border">
-                        <h4>Live score</h4>
-                        <ul class="scrollable">
-                            <li class="match normal">
-                                <span class="col-2 logo">(logo)</span>
-                                <span class="col-3 teamA">Manchester United</span>
-                                <span class="col-2 score">12:00</span>
-                                <span class="col-5 teamB">Chelsea</span>
-                            </li>
-                            <li class="match normal">
-                                <span class="col-2 logo">(logo)</span>
-                                <span class="col-3 teamA">Manchester United</span>
-                                <span class="col-2 score">12:00</span>
-                                <span class="col-5 teamB">Chelsea</span>
-                            </li>
-                            <li class="match normal">
-                                <span class="col-2 logo">(logo)</span>
-                                <span class="col-3 teamA">Manchester United</span>
-                                <span class="col-2 score">12:00</span>
-                                <span class="col-5 teamB">Chelsea</span>
-                            </li>
-                            <li class="match normal">
-                                <span class="col-2 logo">(logo)</span>
-                                <span class="col-3 teamA">Manchester United</span>
-                                <span class="col-2 score">12:00</span>
-                                <span class="col-5 teamB">Chelsea</span>
-                            </li>
-                            <li class="match small">
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="logo">(logo)</span>
-                                </div>
-
-                                <div class="col-s-8 col-xs-8">
-                                    <span class="col-s-12 col-xs-12">Manchester United</span>
-                                    <span>Chelsea</span>
-                                </div>
-
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="time">12:00</span>
-                                </div>
-                            </li>
-                            <li class="match small">
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="logo">(logo)</span>
-                                </div>
-
-                                <div class="col-s-8 col-xs-8">
-                                    <span class="col-s-12 col-xs-12">Manchester United</span>
-                                    <span>Chelsea</span>
-                                </div>
-
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="time">12:00</span>
-                                </div>
-                            </li>
-                            <li class="match small">
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="logo">(logo)</span>
-                                </div>
-
-                                <div class="col-s-8 col-xs-8">
-                                    <span class="col-s-12 col-xs-12">Manchester United</span>
-                                    <span>Chelsea</span>
-                                </div>
-
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="time">12:00</span>
-                                </div>
-                            </li>
-                            <li class="match small">
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="logo">(logo)</span>
-                                </div>
-
-                                <div class="col-s-8 col-xs-8">
-                                    <span class="col-s-12 col-xs-12">Manchester United</span>
-                                    <span>Chelsea</span>
-                                </div>
-
-                                <div class="col-s-2 col-xs-2">
-                                    <span class="time">12:00</span>
-                                </div>
-                            </li>
-
+                <div class="col-4 col-s-7 padding-left-bottom">
+                    <div class="live-scores border" id="score-bar">
+                        <h4>Match Score</h4>
+                        <ul class="scrollable" id="match-score">
                         </ul>
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="trending border">
+                    <div class="trending border" id="trending-news">
                         <h4>Trending</h4>
+                        <ul class="scrollable" id="news">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 match-detail" id="match-detail">
+
+                <div class="col-2 col-s-6 col-xs-12 back-button border" id="back-button">
+                    <a href="#"> <span>back</span></a>
+                </div>
+
+
+                <div class="col-12 border detail">
+                    <div class="col-5 col-s-5 col-xs-5 team-name-a">
+                        <div class="team-logo">
+                            <img
+                                src="#" id="logo-teamA"/>
+                        </div>
+                        <div class="team-name" id="team-name-a"></div>
+
+                    </div>
+
+                    <div class="col-2 cols-2 col-xs-2 score">
+                        <div class="score-content" id="score-content"></div>
+                    </div>
+                    <div class="col-5 col-s-5 col-xs-5 team-name-b">
+                        <div class="team-logo">
+                            <img
+                                src="#" id="logo-teamB" />
+                        </div>
+                        <div class="team-name" id="team-name-b"></div>
+                    </div>
+
+                    <div class="col-12 col-s-12 col-xs-12 tabs padding">
+                        <div class="col-6 col-s-6 col-xs-6 events-tab border">
+                            <a href="#" id="events-link">Events</a>
+                        </div>
+                        <div class="col-6 col-s-6 col-xs-6 lineup-tab border">
+                            <a href="#" id="lineup-link">Line up</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-s-12 col-xs-12 features">
+                        <ul id="match-events">
+
+                        </ul>
                     </div>
                 </div>
             </div>

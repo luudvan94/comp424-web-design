@@ -25,18 +25,21 @@ ul {
 .navigation-bar {
     height: 7vh;
     margin: auto;
+    overflow: hidden;
+    transition: height 200ms;
 }
 
 .website-name {
-    height: 6vh;
-    line-height: 6vh;
     text-align: center;
     background-color: lightgray;
 }
 
+.navigation-bar > * {
+    height: 7vh;
+    line-height: 7vh;
+}
+
 .navigation-bar-features {
-    height: 6vh;
-    line-height: 6vh;
     text-align: center;
     background-color: white;
     color: black;
@@ -46,11 +49,20 @@ ul {
     overflow: scroll;
 }
 
+.menu {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
 .border {
-    border-style: groove;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(168,168,168,0.25);
+-moz-box-shadow: 0px 0px 13px 0px rgba(168,168,168,0.25);
+box-shadow: 0px 0px 13px 0px rgba(168,168,168,0.25);
 }
 
 a {
+    color: black;
     text-decoration: none;
 }
 
@@ -68,6 +80,15 @@ a {
     .padding-left-bottom {
         padding-bottom: 3vh;
     }
+    #match-detail {
+        display: none;
+    }
+    #trending-news {
+        display: none;
+    }
+    #trending-news-bar {
+        display: block;
+    }
 }
 
 
@@ -75,11 +96,12 @@ a {
 
 @media only screen and (min-width: 600px) {
     html {
-        font-size: 1.8vw;
+        font-size: 2.1vw;
     }
     .padding-left-bottom {
         padding-right: 3vh;
     }
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -90,6 +112,8 @@ a {
     .padding-left-bottom {
         padding-right: 3vh;
     }
+
+    
 }
 
 
@@ -97,27 +121,43 @@ a {
 
 @media only screen and (min-width: 992px) {
     html {
-        font-size: 1.1vw;
+        font-size: 1.2vw;
     }
     .padding-left-bottom {
         padding-right: 5vh;
     }
+    #match-detail {
+        display: block;
+    }
+    #trending-news {
+        display: block;
+    }
+    #trending-news-bar {
+        display: none;
+    }
+    #menu-expand {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 320px) {
-    .navigation-bar-features {
+    /* .navigation-bar-features {
         display: none;
-    }
+    } */
     .menu {
         display: block;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .navigation-bar-features {
+    /* .navigation-bar-features {
         display: block;
-    }
+    } */
     .menu {
+        display: none;
+    }
+
+    #menu-expand {
         display: none;
     }
 }

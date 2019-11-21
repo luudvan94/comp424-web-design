@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../../../css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/loading-row.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script type="text/javascript" src="../../../data/league.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../../../js/index.js"></script>
+    <script src="../../../js/api.js"></script>
+    <script src="htmlComponent.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navigation-bar border" id="menu">
+            <div class="col-2 col-s-2 website-name">
+                <a class="menu" href="#" id="menu-expand">
+                    <div>+</div>
+                </a>
+                <a class="col-s-12 col-xs-12" href="index.html">
+                    <div>Soccer Update</div>
+                </a>
+            </div>
+            <a href="../home/index.html">
+                <div class="col-5 col-s-4 col-xs-12  navigation-bar-features">scores</div>
+            </a>
+            <a href="../standing/index.html">
+                <div class="col-5 col-s-3 col-xs-12 navigation-bar-features">standing</div>
+            </a>
+            <a href="../trending-news/index.html">
+                <div class="col-s-2 col-xs-12 navigation-bar-features" id="trending-news-bar">trending news</div>
+            </a>
+        </div>
+        <div class="tabs">
+            <div class="col-3 col-s-4 col-xs-12 padding-left-bottom">
+                <div class="leagues border" id="leagues">
+                    <h4>Leagues</h4>
+                    <div class="scrollable" id="leagues-list">
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-s-8 col-xs-12 padding-left-bottom">
+                <div class="top-team border" id="top-team">
+                    <ul id="standing">
+                        <li class="header">
+                            <div class="col-1 col-s-1 col-xs-1">1</div>
+                            <div class=" col-4 col-s-4 col-xs-4">
+                                <span>Priemier League</span>
+                            </div>
+                            <div class="col-1 col-s-1 col-xs-1">P</div>
+                            <div class="col-1 col-s-1 col-xs-1">W</div>
+                            <div class="col-1 col-s-1 col-xs-1">D</div>
+                            <div class="col-1 col-s-1 col-xs-1">L</div>
+                            <div class="col-1 col-s-1 col-xs-1">GF</div>
+                            <div class="col-1 col-s-1 col-xs-1">GA</div>
+                            <div class="col-1 col-s-1 col-xs-1">PTS</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col-12 match-detail" id="team-detail">
+
+                <div class="col-2 col-s-6 col-xs-12 back-button border" id="back-button">
+                    <a href="#"> <span>back</span></a>
+                </div>
+
+
+                <div class="col-12 col-xs-12 detail">
+                    <div class="team-name">
+                        <div class="col-3 col-s-4 col-xs-12 padding-left-bottom">
+                            <h4 class="text-center" id="team-name"></h4>
+                        </div>
+
+                        <div class="col-9 col-s-8 padding-left-bottom">
+                            <div class="rank border" id="rank"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-s-12 col-xs-12 team-stat">
+
+                        <div class="col-4 col-s-3 col-xs-12 team-logo">
+                            <img src="" id="team-logo" />
+                        </div>
+                        <div class="col-8 col-s-9 col-xs-12 team-stats border">
+                            <ul class="scrollable" id="team-stats">
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-s-12 col-xs-12 other">
+                        <div class="col-12 player-info border">
+                            <ul id="team-players">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

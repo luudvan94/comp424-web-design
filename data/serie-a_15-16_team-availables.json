@@ -1,0 +1,189 @@
+{
+    "data": {
+        "teams": [
+            {
+                "identifier": "8c3a3ebd132fa0b15267dadd62c9337e",
+                "team_slug": "atalanta",
+                "name": "Atalanta",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/atalanta.png",
+                "notes": "",
+                "team_foundation": "1907",
+                "team_website": "http://www.atalanta.it/"
+            },
+            {
+                "identifier": "1577fdf30017a9b12005d78671613249",
+                "team_slug": "bologna",
+                "name": "Bologna",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/bologna.png",
+                "notes": "",
+                "team_foundation": "1909",
+                "team_website": "http://www.bolognafc.it/"
+            },
+            {
+                "identifier": "dfd514407e78fb4fc2eb9a52b2dd6f7e",
+                "team_slug": "carpi",
+                "name": "Carpi",
+                "flag": "",
+                "notes": "",
+                "team_foundation": "1909",
+                "team_website": "http://www.carpifc.it/"
+            },
+            {
+                "identifier": "73a1934a26d5fdd1698d89a01f8cffa0",
+                "team_slug": "chievo",
+                "name": "Chievo",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/chievo.png",
+                "notes": "",
+                "team_foundation": "1929",
+                "team_website": "http://www.chievoverona.it/"
+            },
+            {
+                "identifier": "16d44c9f6c49c3354d16c050f1883e0d",
+                "team_slug": "empoli",
+                "name": "Empoli",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/empoli.png",
+                "notes": "",
+                "team_foundation": "1920",
+                "team_website": "http://www.empolicalcio.it/"
+            },
+            {
+                "identifier": "1b89b8ac6fcde42f8d1cb62deb1d0c26",
+                "team_slug": "fiorentina",
+                "name": "Fiorentina",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/fiorentina.png",
+                "notes": "",
+                "team_foundation": "1926",
+                "team_website": "http://it.violachannel.tv/"
+            },
+            {
+                "identifier": "fe88d384ba12a694f98b8aab8da04709",
+                "team_slug": "frosinone",
+                "name": "Frosinone",
+                "flag": "",
+                "notes": "",
+                "team_foundation": "1912",
+                "team_website": "http://www.frosinonecalcio.com/"
+            },
+            {
+                "identifier": "bc41e9a4fe7929e83acdaece03f2c56b",
+                "team_slug": "genoa",
+                "name": "Genoa",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/genoa.png",
+                "notes": "",
+                "team_foundation": "1893",
+                "team_website": "http://www.genoacfc.it/"
+            },
+            {
+                "identifier": "691f5aae875365927e918fe8cdf59de2",
+                "team_slug": "inter",
+                "name": "Inter",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/inter.png",
+                "notes": "",
+                "team_foundation": "1908",
+                "team_website": "http://www.inter.it"
+            },
+            {
+                "identifier": "a9ef824ba73b0a57e982df21467c3efc",
+                "team_slug": "juventus",
+                "name": "Juventus",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/juventus.png",
+                "notes": "",
+                "team_foundation": "1897",
+                "team_website": "http://www.juventus.com/"
+            },
+            {
+                "identifier": "6b11a3efb372a066327f326ac476b7f7",
+                "team_slug": "lazio",
+                "name": "Lazio",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/lazio.png",
+                "notes": "",
+                "team_foundation": "1900",
+                "team_website": "http://www.sslazio.it/"
+            },
+            {
+                "identifier": "792851482de0aa17e6c91911a66f2d7d",
+                "team_slug": "milan",
+                "name": "Milan",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/milan.png",
+                "notes": "",
+                "team_foundation": "1899",
+                "team_website": "http://www.acmilan.com/"
+            },
+            {
+                "identifier": "b7f5f1b1be693a8e1c5c3aa5aee2a05b",
+                "team_slug": "napoli",
+                "name": "Napoli",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/napoli.png",
+                "notes": "",
+                "team_foundation": "1926",
+                "team_website": "http://www.sscnapoli.it/"
+            },
+            {
+                "identifier": "daa06ddb0cb22f8617eba92fb757e45e",
+                "team_slug": "palermo",
+                "name": "Palermo",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/palermo.png",
+                "notes": "",
+                "team_foundation": "1900",
+                "team_website": "http://palermocalcio.it/"
+            },
+            {
+                "identifier": "23aaca2cafb6306a00e66642f8805804",
+                "team_slug": "roma",
+                "name": "Roma",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/roma.png",
+                "notes": "",
+                "team_foundation": "1927",
+                "team_website": "http://www.asroma.com/"
+            },
+            {
+                "identifier": "2018394b27ed7ddc766023088a9f4264",
+                "team_slug": "sampdoria",
+                "name": "Sampdoria",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/sampdoria.png",
+                "notes": "",
+                "team_foundation": "1946",
+                "team_website": "http://www.sampdoria.it/"
+            },
+            {
+                "identifier": "0a3110a02a99b1f5a0d550c12a58094a",
+                "team_slug": "sassuolo",
+                "name": "Sassuolo",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/sassuolo.png",
+                "notes": "",
+                "team_foundation": "1920",
+                "team_website": "http://www.sassuolocalcio.it/"
+            },
+            {
+                "identifier": "ff5fede07290d13e5f85cca4f9dd01c1",
+                "team_slug": "torino",
+                "name": "Torino",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/torino.png",
+                "notes": "",
+                "team_foundation": "1906",
+                "team_website": "http://www.torinofc.it/"
+            },
+            {
+                "identifier": "54ada92e32c1b0756864fdd5fef6991e",
+                "team_slug": "udinese",
+                "name": "Udinese",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/udinese.png",
+                "notes": "",
+                "team_foundation": "1896",
+                "team_website": "http://www.udinese.it/"
+            },
+            {
+                "identifier": "a5153e30fcd8ebacb360a97b7443727b",
+                "team_slug": "verona",
+                "name": "Verona",
+                "flag": "http://soccer.sportsopendata.net/logos/italy/hellas.png",
+                "notes": "",
+                "team_foundation": "1903",
+                "team_website": "http://www.hellasverona.it/"
+            }
+        ],
+        "statusCode": "200",
+        "errorCode": "0",
+        "statusReason": "OK"
+    }
+}

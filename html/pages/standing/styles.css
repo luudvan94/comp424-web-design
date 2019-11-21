@@ -1,0 +1,219 @@
+/* body {height: 100%;} */
+
+.tabs {
+    margin-top: 5vh;
+}
+
+.leagues {
+    height: 80vh;
+}
+
+.league-name {
+    padding-left: 10px;
+    padding-top: 2vh;
+    height: 10vh;
+}
+
+.country-header {
+    height: 4vh;
+    line-height: 3vh;
+    background-color: lightgray;
+    padding-inline-start: 10px;
+    font-weight: bold;
+}
+
+.top-team {
+    width: 100%;
+    height: 80vh;
+    overflow: scroll;
+}
+
+#standing {
+    width: 100%;
+    overflow: scroll;
+}
+
+
+.top-team > * >.header, .top-team > * > .team {
+    width: 100%;
+    height: 5vh;
+    line-height: 5vh;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+}
+
+.top-team > * > .header {
+    font-weight: bold;
+}
+
+.match-detail {
+    margin-top: 200px;
+    height: 100vh;
+}
+
+.match-detail > .back-button {
+    height: 5vh;
+    border-radius: 2vh;
+    margin-top: 20px;
+    text-align: center;
+vertical-align: middle;
+line-height: 5vh;
+font-weight: bold;
+}
+
+.team-name {
+    height: 5vh;
+    margin-top: 5vh;
+}
+
+.rank {
+    line-height: 4vh;
+    text-align: center;
+    background-color: white;
+    height: 5vh;
+    font-weight: bold;
+}
+
+.team-stat {
+    height: 35vh;
+}
+
+.other {
+    margin-top: 5vh;
+    height: 30vh;
+}
+
+.other>.player-info {
+    float: left;
+    height: 100%;
+}
+
+.other>.news {
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+
+.team-logo {
+    object-fit: cover;
+    height: 100%;
+    /* width: auto; */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-logo > img {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.team-stats {
+    height: 100%;
+    overflow: scroll;
+}
+
+#team-stats {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.category {
+    font-weight: bold;
+}
+
+.stat {
+    width: 100%;
+    height: 5vh;
+    line-height: 5vh;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+}
+
+.player-headers {
+    font-weight: bold;
+}
+
+.player, .player-headers {
+    width: 100%;
+    height: 5vh;
+    line-height: 5vh;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+}
+
+#team-players {
+    height: 100%;
+    overflow: scroll;
+}
+
+
+@media only screen and (min-width: 320px) {
+    .live-score {
+        overflow: visible;
+        height: auto;
+    }
+    #top-team, #leagues {
+        height: auto;
+    }
+    #team-detail {
+        display: none;
+    }
+    .team-logo {
+        height: 30%;
+    }
+    .team-stats {
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .top-team {
+        display: block;
+    }
+    .live-score {
+        overflow: visible;
+        height: auto;
+    }
+    .team-stats {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .top-team {
+        display: block;
+    }
+    .live-score {
+        overflow: scroll;
+        height: 40vh;
+    }
+    #top-team, #leagues {
+        height: 80vh;
+    }
+    .team-logo {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .normal {
+        display: none;
+    }
+    .small {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .normal {
+        display: block;
+    }
+    .small {
+        display: none;
+    }
+}
