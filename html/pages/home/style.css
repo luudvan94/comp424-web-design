@@ -26,19 +26,19 @@
 }
 
 .last-games {
-    height: 70vh;
+    height: 80vh;
     overflow: scroll;
 }
 
 .live-scores {
     /* margin-left: 5vh; */
-    height: 70vh;
+    height: 80vh;
     overflow: scroll;
 }
 
 .trending {
     /* margin-left: 5vh; */
-    height: 70vh;
+    height: 80vh;
     overflow: scroll;
 }
 
@@ -84,10 +84,11 @@
 }
 
 .match {
-    padding-top: 2vh;
+    margin-top: 2vh;
     border-bottom: 1px solid;
     border-color: lightgray;
-    height: 7vh;
+    min-height: 7vh;
+    height: auto;
 }
 
 .score {
@@ -150,8 +151,8 @@ font-weight: bold;
 }
 
 .match-detail > .detail {
-    height: 90%;
-    margin-top: 20px;
+    height: 88%;
+    margin-top: 10px;
     width: 100%;
     padding-top: 20px;
 }
@@ -178,7 +179,6 @@ font-weight: bold;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 2vw;
 }
 
 .team-logo > img {
@@ -196,7 +196,6 @@ font-weight: bold;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 3vw;
 }
 
 .detail > .tabs {
@@ -215,16 +214,20 @@ font-weight: bold;
 }
 
 .detail > .features > ul > li {
-    height: 50px;
+    height: auto;
     border-bottom: 1px solid;
     border-color: lightgray;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .features > ul > li > .fromA, .features > ul > li > .fromB {
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -235,6 +238,11 @@ font-weight: bold;
     align-items: center;
     justify-content: center;
     font-weight: bold;
+}
+
+#match-score {
+    /* margin-block-end: 0px; */
+    margin-block-start: 1em;
 }
 
 
@@ -280,7 +288,7 @@ font-weight: bold;
         display: block;
     }
     #leagues-bar, #score-bar {
-        height: 70vh;
+        height: 80vh;
     }
 }
 
