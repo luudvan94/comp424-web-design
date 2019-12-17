@@ -3,7 +3,7 @@
 This website provides sport news and scores update for all the match in many soccer leagues. Users can also see the the match detail and team information as well
 
 # How to run
-open the `index.html` inside `html/pages/home` in browser to run
+open the `index.html` in browser to run
 
 # Features
 ## Nice UI
